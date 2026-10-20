@@ -14,6 +14,15 @@ machine; no cloud APIs and no data leaves your laptop.
 
 ## Quick start
 
+Get the code:
+
+```bash
+git clone https://github.com/grack126/LocalLedger.git
+cd LocalLedger
+```
+
+(No git? Use **Code › Download ZIP** on GitHub and unzip it.) Then start the app:
+
 **Windows:** double-click **`run.bat`**
 **macOS / Linux:** in a terminal, run **`./run.sh`** (or `bash run.sh`)
 
@@ -103,7 +112,7 @@ then on. Manual rates override fetched ones.
 ## Project layout
 
 ```
-LocalLedger-OCR/
+LocalLedger/
 ├── run.bat / run.sh               # one-click launchers (find Python 3.11+, create .venv, start)
 ├── launcher.py                    # installs requirements when they change, first-run samples, starts Streamlit
 ├── app.py                         # Streamlit entry point (multi-page navigation)
