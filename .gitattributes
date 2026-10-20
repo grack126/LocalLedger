@@ -1,0 +1,6 @@
+# Keep line endings right for each platform's launcher, whatever the clone settings.
+* text=auto
+*.sh  text eol=lf
+*.bat text eol=crlf
+*.pdf binary
+*.db  binary

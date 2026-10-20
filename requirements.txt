@@ -1,0 +1,20 @@
+# --- Core ---------------------------------------------------------------
+streamlit>=1.39
+pandas>=2.2
+openpyxl>=3.1
+rapidfuzz>=3.9
+python-dateutil>=2.9
+plotly>=5.24
+requests>=2.32
+
+# --- PDF extraction & rendering -----------------------------------------
+pdfplumber>=0.11
+PyMuPDF>=1.24.3,<2         # 2.x hard-requires ~100 MB of AI layout add-ons (onnxruntime) we do not use
+pytesseract>=0.3.10        # needs the Tesseract binary installed separately
+Pillow>=10.4
+
+# --- Sample data generator ----------------------------------------------
+reportlab>=4.2
+
+# --- Optional (heavy) ---------------------------------------------------
+# easyocr>=1.7             # alternative OCR engine; pulls in PyTorch

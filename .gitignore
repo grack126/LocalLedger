@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+*.egg-info/
+
+# Local data — never commit invoices or the ledger database
+data/
+!data/.gitkeep
+*.db
+*.db-wal
+*.db-shm
+
+# Generated samples (re-create with: python generate_sample_data.py)
+sample_data/
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Claude Code local preview config (machine-specific paths)
+.claude/

@@ -1,0 +1,11 @@
+# LocalLedger OCR runs entirely on your machine.
+[browser]
+gatherUsageStats = false          # no Streamlit usage telemetry
+
+[server]
+address = "localhost"             # not reachable from other computers on the network
+maxUploadSize = 200               # MB per upload batch
+runOnSave = false
+
+[client]
+toolbarMode = "minimal"           # hide the cloud "Deploy" button
